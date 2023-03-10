@@ -1030,5 +1030,12 @@ Contact Section
     .trigger,
     .overlay{
         left: 90%;
+        
     }
+    .box-menu{
+    top: calc(88% - 7px);
+}
+.full-menu{
+    top: calc(81% - 7px);
+}
 }
