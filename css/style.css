@@ -620,7 +620,7 @@ button{
 .home-img,
 .home-text{
     width: 50%;
-    padding: 15px;
+    margin-bottom: 15px;
 }
 .home-text p{
     font-size: 18px;
@@ -640,16 +640,14 @@ button{
 }
 
 .home-img .img-box{
-    max-width: 360px;
-    background-color: var(--white-alpha-25);
-    border-radius: 50%;
-    border: 8px solid var(--white-alpha-25);
-    margin: auto;
+   
+   
+    margin:auto 120px ;
 
 }
 .home-img .img-box img{
     width: 100%;
-    border-radius: 50%;
+  
 
 }
 
@@ -667,15 +665,13 @@ button{
     padding: 0 15px;
  }
  .about-img .img-box{
-    background-color: var(--white-alpha-25);
+   
     max-width: 380px;
-    border: 1px solid var(--white-alpha-40);
-    margin: auto;
-    border-radius: 10px;
+   text-align: center;
+    margin: auto 50px;
+    
  }
- .about-img .img-box img{
-    width: 100%;
- }
+
  .about-text h3{
     text-transform: capitalize;
     font-size: 20px;
